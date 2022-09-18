@@ -6,18 +6,10 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import {Dog} from '../../data/HomeScreenData';
 import ImageModal from 'react-native-image-modal';
 
-const renderItem = ({item}: {item: Dog}, props) => {
+const renderItem = ({item}: {item: Dog}, props, onDelete, onEdit) => {
   function getTemperament(text: string) {
     return text.slice(0, 4).concat('...');
   }
-
-  const onDelete = item => {
-    console.log(item);
-  };
-
-  const onEdit = item => {
-    console.log(item);
-  };
 
   const {photo, breed, origin, breedType} = item;
 

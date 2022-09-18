@@ -5,6 +5,7 @@ import AddNewNavigation from './AddNewNavigation';
 const Tab = createBottomTabNavigator();
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import COLORS from '../styles/COLORS';
+import AddNew from '../screens/AddNew/AddNew';
 const tabBarLabelStyle = {
   fontSize: 12,
   fontWeight: '900',
@@ -43,7 +44,7 @@ const BottomTabNavigator = () => {
           tabBarLabelStyle: tabBarLabelStyle,
         }}
         name="AddNewNavigation"
-        component={AddNewNavigation}
+        component={AddNew}
       />
     </Tab.Navigator>
   );

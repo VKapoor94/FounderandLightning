@@ -1,4 +1,5 @@
 export interface Dog {
+  id: number;
   breed: string;
   breedType: string;
   origin: string;
@@ -13,9 +14,10 @@ export const DATA = [
   {
     dogBreeds: [
       {
+        id: 1,
         breed: 'Labrador Retriever',
         breedType: 'Purebred',
-        origin: 'Canada,USA',
+        origin: 'Canada',
         popularity: '1',
         temperament: ['Cheerful', 'Gentle', 'Friendly', 'Intelligent'],
         hypoallergenic: 'No',
@@ -29,6 +31,7 @@ export const DATA = [
           'https://thumbs.dreamstime.com/b/golden-retriever-dog-21668976.jpg',
       },
       {
+        id: 2,
         breed: 'German Shepard',
         breedType: 'Purebred',
         origin: 'Germany',
@@ -45,6 +48,7 @@ export const DATA = [
           'http://cdn.akc.org/content/article-body-image/samoyed_puppy_dog_pictures.jpg',
       },
       {
+        id: 3,
         breed: 'Golden Retriever',
         breedType: 'Purebred',
         origin: 'United Kingdom',
@@ -61,9 +65,10 @@ export const DATA = [
           'https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHVwcHklMjBkb2d8ZW58MHx8MHx8&w=1000&q=80',
       },
       {
+        id: 4,
         breed: 'French Bulldog',
         breedType: 'Purebred',
-        origin: 'France, UK',
+        origin: 'France',
         popularity: '4',
         temperament: ['Playful', 'Sociable', 'Friendly', 'Lively', 'Patient'],
         hypoallergenic: 'No',
@@ -77,6 +82,7 @@ export const DATA = [
           'https://media.istockphoto.com/photos/corgi-pembroke-puppy-on-sea-coast-dog-beach-and-walking-concept-world-picture-id1302660208?b=1&k=20&m=1302660208&s=612x612&w=0&h=9J5V82fSRGb0yzFScHvnGxfqudZxB8RWNOfLhzcTAKY=',
       },
       {
+        id: 5,
         breed: 'Bulldog',
         breedType: 'Purebred',
         origin: 'United Kingdom',
@@ -93,6 +99,7 @@ export const DATA = [
           'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/06154034/Akita-standing-outdoors-in-the-summer-400x267.jpg',
       },
       {
+        id: 6,
         breed: 'Beagle',
         breedType: 'Purebred',
         origin: 'United Kingdom',
@@ -109,9 +116,10 @@ export const DATA = [
           'https://dictionary.cambridge.org/images/thumb/dog_noun_001_04904.jpg?version=5.0.250',
       },
       {
+        id: 7,
         breed: 'Poodle',
         breedType: 'Purebred',
-        origin: 'Germany, France',
+        origin: 'France',
         popularity: '7',
         temperament: ['Intelligent', 'Faithful', 'Trainable', 'Instinctual'],
         hypoallergenic: 'Yes',
@@ -125,6 +133,7 @@ export const DATA = [
           'https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445',
       },
       {
+        id: 8,
         breed: 'Rottweiler',
         breedType: 'Purebred',
         origin: 'Germany',
@@ -140,6 +149,7 @@ export const DATA = [
         photo: 'https://learnwebcode.github.io/json-example/images/cat-2.jpg',
       },
       {
+        id: 9,
         breed: 'German Shorthaired',
         breedType: 'Purebred',
         origin: 'Germany',
@@ -156,6 +166,7 @@ export const DATA = [
           'https://play-lh.googleusercontent.com/6f6MrwfRIEnR-OIKIt_O3VdplItbaMqtqgCNSOxcfVMCKGKsOdBK5XcI6HZpjssnB2Y',
       },
       {
+        id: 10,
         breed: 'Yorkshire Terrier',
         breedType: 'Purebred',
         origin: 'United Kingdom',
@@ -171,6 +182,7 @@ export const DATA = [
         photo: 'https://nationaltoday.com/wp-content/uploads/2020/08/Dog.jpg',
       },
       {
+        id: 11,
         breed: 'Boxer',
         breedType: 'Purebred',
         age: 20,
